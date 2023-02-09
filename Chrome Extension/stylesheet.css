@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+    color: white;
+}
+@font-face {
+    font-family: "TI-Npire Font";
+    src: url(https://education.ti.com/download/en/ed-tech/A1E0A0D6DA69477F9F6DD603CA75EC98/450C8C07D4A943D786437D523B3A15CD/TINspireKeysCX.ttf) format("truetype");
+}
+#fieldsetgen{
+    background-color: rgb(97, 93, 93);
+    border-color: aqua;
+
+}
+legend {
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    padding: 5px 10px;
+}
+legend:before {
+    position: relative;
+    content: '';
+    height: 8px;
+    border-left: 1px solid aqua;
+    left: -7px;
+    bottom: 0px;
+}
+legend:after {
+    position: relative;
+    content: '';
+    height: 8px;
+    border-right: 1px solid aqua;
+    right: -7px;
+    bottom: 0px;
+}
+button{
+    color: black;
+}
+body{
+    background-image: linear-gradient(#000001, #041b3b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#resultpassword{
+    background-color: transparent;
+}
+.button {
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border-color: aqua;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+   background-color: black;
+  }

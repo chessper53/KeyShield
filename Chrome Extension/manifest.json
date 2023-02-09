@@ -1,0 +1,11 @@
+{
+    "name": "KeyShield",
+    "version": "1.0.0",
+    "description": "A Password Generator",
+    "manifest_version": 3,
+    "author": "Caspar Stählin",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "KeyShield V1"
+    }
+}

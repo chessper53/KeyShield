@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KeyShield</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <div id="Generator">
+        <h1>Password Generator</h1>
+        <fieldset id="fieldsetgen">
+            <legend>Generation Options</legend>
+            <div>
+              <input type="radio" id="compRandom" name="optionpick" value="Random Letters & Numbers" checked>
+              <label for="compRandom">Only Letters & Numbers</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="specialchars" name="optionpick" value="With Special Chars">
+              <label for="specialchars">Use Special Characters</label>
+            </div>
+            <br>
+            <br>
+            <input type="text" readonly id="resultpassword">
+            <br>
+            <br>
+            <button id="pwgenerator" class="button">Generate Password</button>
+        </fieldset>
+    </div>
+</body>
+<script src="script.js"></script>
+</html> 
